@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta
+      name="description"
+      content="A little midnight-blue birthday world made especially for Moitrayee."
+    />
+    <meta name="theme-color" content="#030816" />
+    <title>Happy Birthday, Moitrayee ✦</title>
+    <link rel="preload" as="image" href="assets/lake-portrait.webp" fetchpriority="high" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body class="is-loading">
+    <div class="noise" aria-hidden="true"></div>
+    <div class="cinema-frame" aria-hidden="true">
+      <i></i><i></i><i></i><i></i>
+    </div>
+    <div class="scroll-progress" aria-hidden="true"><span></span></div>
+    <div class="cursor-glow" aria-hidden="true"></div>
+    <div class="ambient-dust" aria-hidden="true"></div>
+
+    <section class="loader" aria-label="Preparing your birthday surprise">
+      <div class="loader__stars" aria-hidden="true">
+        <span></span><span></span><span></span><span></span><span></span>
+      </div>
+      <div class="loader__content">
+        <p class="eyebrow">A little world for</p>
+        <h1>Moitrayee</h1>
+        <div class="loader__orbit" aria-hidden="true">
+          <div class="loader__moon">M</div>
+        </div>
+        <p class="loader__note">Wrapping a few feelings in midnight blue…</p>
+        <div
+          class="loader__track"
+          role="progressbar"
+          aria-label="Loading"
+          aria-valuemin="0"
+          aria-valuemax="100"
+          aria-valuenow="0"
+        >
+          <span></span>
+        </div>
+        <p class="loader__percent" aria-hidden="true">00</p>
+      </div>
+      <button class="loader__skip" type="button">Enter early</button>
+    </section>
+
+    <main id="main-content">
+      <aside class="journey-rail" aria-label="Page chapters">
+        <span class="journey-rail__line" aria-hidden="true"></span>
+        <a href="#main-content" aria-label="Birthday opening"><i></i><b>Opening</b></a>
+        <a href="#memories" aria-label="Photo memories"><i></i><b>Memories</b></a>
+        <a href="#letter" aria-label="Supportive letter"><i></i><b>Letter</b></a>
+        <a href="#finale" aria-label="Final birthday wish"><i></i><b>Wish</b></a>
+      </aside>
+
+      <section class="hero" aria-labelledby="birthday-title">
+        <div class="hero__aurora hero__aurora--one" aria-hidden="true"></div>
+        <div class="hero__aurora hero__aurora--two" aria-hidden="true"></div>
+        <div class="star-field" aria-hidden="true"></div>
+
+        <nav class="topbar" aria-label="Birthday page">
+          <p>20 · 06</p>
+        </nav>
+
+        <div class="hero__content">
+          <p class="eyebrow hero__eyebrow"><span></span> Today is yours <span></span></p>
+          <h1 id="birthday-title">
+            <span>Happy Birthday,</span>
+            <em>Moitrayee</em>
+          </h1>
+          <p class="hero__copy">
+            Suno birthday girl, aaj ke din bas itna yaad rakhna—tum jitni pyaari
+            dikhti ho, usse kahin zyada pyaari tumhari soul hai. Tumhari smile
+            normal days ko bhi thoda special bana deti hai, aur tumhara meri life
+            mein hona honestly meri favourite blessings mein se ek hai.
+          </p>
+          <div class="countdown" aria-live="polite">
+            <p class="countdown__label">Celebrating June 20, 2026</p>
+            <div class="countdown__grid">
+              <div><strong data-countdown="days">000</strong><span>Days</span></div>
+              <i>:</i>
+              <div><strong data-countdown="hours">00</strong><span>Hours</span></div>
+              <i>:</i>
+              <div><strong data-countdown="minutes">00</strong><span>Mins</span></div>
+              <i>:</i>
+              <div><strong data-countdown="seconds">00</strong><span>Secs</span></div>
+            </div>
+          </div>
+          <a class="scroll-cue" href="#memories">
+            <span>Scroll into your little story</span>
+            <i aria-hidden="true"></i>
+          </a>
+        </div>
+
+        <p class="hero__side-note" aria-hidden="true">made with care · just for you</p>
+      </section>
+
+      <section class="intro" id="memories" aria-labelledby="memories-title">
+        <div class="section-number">01</div>
+        <div class="intro__copy reveal">
+          <p class="eyebrow">Some things worth saying</p>
+          <h2 id="memories-title">Five little reasons<br />the world feels brighter.</h2>
+        </div>
+        <p class="intro__aside reveal">
+          No grand speeches. Just a few honest reminders of what makes you,
+          <em>you.</em>
+        </p>
+      </section>
+
+      <section class="memory memory--portrait memory--sapphire" data-memory>
+        <div class="memory__visual">
+          <div class="photo-frame">
+            <img
+              src="assets/lake-portrait.webp"
+              alt="Moitrayee smiling beside a peaceful blue lake"
+              width="1080"
+              height="994"
+              loading="eager"
+              decoding="async"
+              fetchpriority="high"
+            />
+            <span class="photo-index">01 / 05</span>
+            <span class="photo-frame__shine" aria-hidden="true"></span>
+          </div>
+        </div>
+        <div class="memory__words">
+          <p class="memory__kicker">The calm you carry</p>
+          <h3>You make soft look strong.</h3>
+          <p>
+            Tumhari presence mein ek alag sa sukoon hai—quiet, warm, aur bilkul
+            tumhare jaisa. Thank you for making life feel a little less heavy.
+          </p>
+        </div>
+      </section>
+
+      <section class="memory memory--reverse memory--cobalt" data-memory>
+        <div class="memory__visual">
+          <div class="photo-frame photo-frame--landscape">
+            <img
+              src="assets/traditional-portrait.webp"
+              alt="Moitrayee smiling outdoors in traditional attire"
+              width="1400"
+              height="1275"
+              loading="lazy"
+              decoding="async"
+            />
+            <span class="photo-index">02 / 05</span>
+            <span class="photo-frame__shine" aria-hidden="true"></span>
+          </div>
+        </div>
+        <div class="memory__words">
+          <p class="memory__kicker">The joy you bring</p>
+          <h3>Your happiness is wonderfully contagious.</h3>
+          <p>
+            Tum jab genuinely khush hoti ho na, woh happiness sirf tum tak nahi
+            rehti. It reaches everyone around you—and yes, especially me.
+          </p>
+        </div>
+      </section>
+
+      <section class="interlude" aria-label="A special birthday note">
+        <div class="interlude__line" aria-hidden="true"></div>
+        <p class="reveal">The best kind of people feel like <em>home</em>, even from far away.</p>
+        <div class="interlude__spark" aria-hidden="true">✦</div>
+      </section>
+
+      <section class="memory memory--portrait memory--azure" data-memory>
+        <div class="memory__visual">
+          <div class="photo-frame photo-frame--story">
+            <img
+              src="assets/sunny-day.webp"
+              alt="Moitrayee enjoying a sunny day outdoors"
+              width="738"
+              height="1600"
+              loading="lazy"
+              decoding="async"
+            />
+            <span class="photo-index">03 / 05</span>
+            <span class="photo-frame__shine" aria-hidden="true"></span>
+          </div>
+        </div>
+        <div class="memory__words">
+          <p class="memory__kicker">The little moments</p>
+          <h3>You turn ordinary days into memories.</h3>
+          <p>
+            Random baatein, silly moments, aur woh chhoti chhoti cheezein—somehow
+            they stay. I’m grateful for every version of the day that had you in it.
+          </p>
+        </div>
+      </section>
+
+      <section class="memory memory--reverse memory--royal" data-memory>
+        <div class="memory__visual">
+          <div class="photo-frame photo-frame--story">
+            <img
+              src="assets/collage.webp"
+              alt="A collage of Moitrayee smiling in a beautiful traditional look"
+              width="738"
+              height="1600"
+              loading="lazy"
+              decoding="async"
+            />
+            <span class="photo-index">04 / 05</span>
+            <span class="photo-frame__shine" aria-hidden="true"></span>
+          </div>
+        </div>
+        <div class="memory__words">
+          <p class="memory__kicker">All your beautiful sides</p>
+          <h3>Every version of you deserves kindness.</h3>
+          <p>
+            The confident you, the confused you, the excited you, even the tired
+            you—sab equally precious hain. You never have to be perfect to be loved.
+          </p>
+        </div>
+      </section>
+
+      <section class="memory memory--portrait memory--last memory--indigo" data-memory>
+        <div class="memory__visual">
+          <div class="photo-frame photo-frame--story">
+            <img
+              src="assets/mirror-moment.webp"
+              alt="Moitrayee sharing a cheerful mirror moment with a friend"
+              width="900"
+              height="1600"
+              loading="lazy"
+              decoding="async"
+            />
+            <span class="photo-index">05 / 05</span>
+            <span class="photo-frame__shine" aria-hidden="true"></span>
+          </div>
+        </div>
+        <div class="memory__words">
+          <p class="memory__kicker">The life around you</p>
+          <h3>Thank you for being in my life.</h3>
+          <p>
+            Truly. Tumhari jagah koi dramatic line explain nahi kar sakti—but my
+            world is warmer, funnier, and simply better because you’re in it.
+          </p>
+        </div>
+      </section>
+
+      <section class="wish" aria-labelledby="wish-title">
+        <button
+          class="wish__orb"
+          id="wish-seal"
+          type="button"
+          aria-label="Open a tiny birthday wish"
+        >
+          <span>✦</span>
+          <small>make a wish</small>
+        </button>
+        <div class="wish__content reveal">
+          <p class="eyebrow">One birthday wish</p>
+          <h2 id="wish-title">May you always be as gentle with yourself as you are with everyone else.</h2>
+        </div>
+        <div class="wish__marquee" aria-hidden="true">
+          <div>
+            <span>YOU ARE ENOUGH</span><i>✦</i><span>YOU ARE LOVED</span><i>✦</i>
+            <span>YOU ARE CAPABLE</span><i>✦</i><span>YOU ARE ENOUGH</span><i>✦</i>
+            <span>YOU ARE LOVED</span><i>✦</i><span>YOU ARE CAPABLE</span><i>✦</i>
+          </div>
+        </div>
+      </section>
+
+      <section class="letter" id="letter" aria-labelledby="letter-title">
+        <div class="letter__backdrop" aria-hidden="true">M</div>
+        <div class="letter__card reveal">
+          <p class="letter__date">For the overwhelming days</p>
+          <h2 id="letter-title">A small reminder to keep close.</h2>
+          <div class="letter__body">
+            <p>
+              Moitrayee, mujhe pata hai exam time pe kabhi kabhi sab kuch ek saath
+              bahut zyada lagne lagta hai. Mind panic karta hai, stress badh jaata
+              hai, aur khud par doubt bhi hota hai. But please remember:
+              <strong>ek difficult day tumhari capability decide nahi karta.</strong>
+              Breathe. Paani piyo. Thoda rest lo. One chapter, one question, one
+              tiny step at a time—you’ll get through it.
+            </p>
+            <p>
+              And I’m sorry un moments ke liye jab main tumhare saath utna nahi reh
+              paaya jitna mujhe rehna chahiye tha. It was never because you mattered
+              any less. I may not always have the perfect words or be there at the
+              perfect time, but I’ll always be rooting for you—quietly, genuinely,
+              and with all my heart.
+            </p>
+            <p class="letter__apology">
+              Aur ek baat dil se—<strong>I’m really sorry ki kuch din pehle main tum
+              par gussa ho gaya.</strong> Mujhe apni feelings ko better way mein
+              express karna chahiye tha; tum us anger ya hurt ki deserving bilkul
+              nahi thi. Main koi excuse nahi dena chahta—bas itna kehna hai ki I
+              genuinely regret it. I never want my anger to make you question how
+              much you matter to me. I’ll try to listen with more patience, speak
+              with more care, and handle things better.
+            </p>
+            <p>
+              You don’t have to carry everything alone. You are doing better than
+              your anxious mind lets you believe, and I’m very, very proud of you.
+            </p>
+          </div>
+          <div class="letter__sign">
+            <span>Always in your corner,</span>
+            <strong>someone very lucky to know you ♡</strong>
+          </div>
+          <button class="calm-button" id="calm-button" type="button">
+            <span aria-hidden="true">◌</span>
+            Panic ho raha hai? Breathe with me
+          </button>
+        </div>
+      </section>
+
+      <section class="finale" id="finale" aria-label="Final birthday wish">
+        <div class="finale__stars" aria-hidden="true"></div>
+        <div class="finale__burst" aria-hidden="true"></div>
+        <p class="eyebrow">And once again</p>
+        <h2>Happy Birthday,<br /><em>Moitrayee.</em></h2>
+        <p>May this year feel lighter, kinder, and full of reasons to smile.</p>
+      </section>
+    </main>
+
+    <div class="birthday-toast" role="status" aria-live="polite">
+      <span>✦</span>
+      <p>It’s your day, birthday girl.</p>
+    </div>
+
+    <dialog class="wish-dialog" id="wish-dialog">
+      <div class="wish-dialog__glow" aria-hidden="true"></div>
+      <button class="wish-dialog__close" type="button" aria-label="Close birthday wish">×</button>
+      <p class="eyebrow">A wish, sealed in starlight</p>
+      <div class="wish-dialog__star" aria-hidden="true">✦</div>
+      <h2>Close your eyes.<br />Make it a good one.</h2>
+      <p>
+        Whatever you wished for, I hope life brings you something even softer,
+        brighter, and more beautiful.
+      </p>
+      <button class="wish-dialog__done" type="button">Keep this wish safe</button>
+    </dialog>
+
+    <dialog class="calm-dialog" id="calm-dialog">
+      <button class="calm-dialog__close" type="button" aria-label="Close breathing moment">×</button>
+      <p class="eyebrow">Just this moment. Nothing else.</p>
+      <div class="breathing-orb" aria-hidden="true">
+        <span></span>
+        <i>4</i>
+      </div>
+      <h2 class="breathing-prompt">Breathe in</h2>
+      <p>Shoulders loose. Jaw soft. You are safe, and you can take this one step at a time.</p>
+      <button class="calm-dialog__done" type="button">I feel a little better</button>
+    </dialog>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+# Original source photos are kept locally; the optimized WebP versions in
+# assets/ are the copies used by the website.
+*.jpeg
+*.jpg
+
+# Local/editor files
+.DS_Store
+.vscode/
